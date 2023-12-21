@@ -1,6 +1,6 @@
 <table><tr><td> <em>Assignment: </em> IS601 Milestone 2 API Project</td></tr>
 <tr><td> <em>Student: </em> Naga Veda Manikanta Sai Asish Movva (nm779)</td></tr>
-<tr><td> <em>Generated: </em> 20/12/2023 10:42:50 pm</td></tr>
+<tr><td> <em>Generated: </em> 21/12/2023 12:42:33 am</td></tr>
 <tr><td> <em>Grading Link: </em> <a rel="noreferrer noopener" href="https://learn.ethereallab.app/homework/IS601-007-F23/is601-milestone-2-api-project/grade/nm779" target="_blank">Grading</a></td></tr></table>
 <table><tr><td> <em>Instructions: </em> <ol><li>Checkout Milestone2 branch</li><li>Create a new markdown file called milestone2.md</li><li>git add/commit/push immediate</li><li>Fill in the below deliverables</li><li>At the end copy the markdown and paste it into milestone2.md</li><li>Add/commit/push the changes to Milestone2</li><li>PR Milestone2 to dev and verify</li><li>PR dev to prod and verify</li><li>Checkout dev locally and pull changes to get ready for Milestone 3</li><li>Submit the direct link to this new milestone2.md file from your GitHub prod branch to Canvas</li></ol><p>Note: Ensure all images appear properly on github and everywhere else. Images are only accepted from dev or prod, not local host. All website links must be from prod (you can assume/infer this by getting your dev URL and changing dev to prod).</p></td></tr></table>
 <table><tr><td> <em>Deliverable 1: </em> API Details </td></tr><tr><td><em>Status: </em> <img width="100" height="20" src="https://user-images.githubusercontent.com/54863474/211707773-e6aef7cb-d5b2-4053-bbb1-b09fc609041e.png"></td></tr>
@@ -33,7 +33,7 @@
 </table></td></tr>
 <tr><td> <em>Sub-Task 2: </em> Show the new data in the database</td></tr>
 <tr><td><table><tr><td><img width="768px" src="https://firebasestorage.googleapis.com/v0/b/learn-e1de9.appspot.com/o/assignments%2Fnm779%2F2023-12-20T07.13.54image.png.webp?alt=media&token=6e8784e1-7559-4416-85b9-ba483be32f7e"/></td></tr>
-<tr><td> <em>Caption:</em> <p>We signed up using the <a href="mailto:&#115;&#x74;&#x6f;&#x63;&#107;&#x74;&#114;&#x61;&#x64;&#x65;&#114;&#49;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#109;">&#115;&#x74;&#x6f;&#x63;&#107;&#x74;&#114;&#x61;&#x64;&#x65;&#114;&#49;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#109;</a> and that is the latest entry in<br>the database.<br></p>
+<tr><td> <em>Caption:</em> <p>We signed up using the <a href="mailto:&#x73;&#x74;&#111;&#99;&#107;&#116;&#114;&#97;&#x64;&#101;&#x72;&#x31;&#x40;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#109;">&#x73;&#x74;&#111;&#99;&#107;&#116;&#114;&#97;&#x64;&#101;&#x72;&#x31;&#x40;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#109;</a> and that is the latest entry in<br>the database.<br></p>
 </td></tr>
 </table></td></tr>
 <tr><td> <em>Sub-Task 3: </em> Include related pull request(s)</td></tr>
@@ -58,20 +58,37 @@
 </td></tr>
 </table></td></tr>
 <tr><td> <em>Sub-Task 2: </em> Include related pull request(s)</td></tr>
-<tr><td>Not provided</td></tr>
+<tr><td><a rel="noreferrer noopener" target="_blank" href="https://github.com/AsishMovva273/Milestone2/pull/1">https://github.com/AsishMovva273/Milestone2/pull/2</a></td></tr>
 </table></td></tr>
-<table><tr><td> <em>Deliverable 4: </em> View Page </td></tr><tr><td><em>Status: </em> <img width="100" height="20" src="https://user-images.githubusercontent.com/54863474/211707795-a9c94a71-7871-4572-bfae-ad636f8f8474.png"></td></tr>
+<table><tr><td> <em>Deliverable 4: </em> View Page </td></tr><tr><td><em>Status: </em> <img width="100" height="20" src="https://user-images.githubusercontent.com/54863474/211707834-bf5a5b13-ec36-4597-9741-aa830c195be2.png"></td></tr>
 <tr><td><table><tr><td> <em>Sub-Task 1: </em> Have a page showing a single entity with more details shown</td></tr>
-<tr><td><table><tr><td>Missing Image</td></tr>
-<tr><td> <em>Caption:</em> (missing)</td></tr>
+<tr><td><table><tr><td><img width="768px" src="https://firebasestorage.googleapis.com/v0/b/learn-e1de9.appspot.com/o/assignments%2Fnm779%2F2023-12-20T19.10.49image.png.webp?alt=media&token=659f8071-d229-48c7-b15c-9c6d9ea25246"/></td></tr>
+<tr><td> <em>Caption:</em> <p>Entry is being fetched by id.<br></p>
+</td></tr>
+<tr><td><img width="768px" src="https://firebasestorage.googleapis.com/v0/b/learn-e1de9.appspot.com/o/assignments%2Fnm779%2F2023-12-20T19.11.54image.png.webp?alt=media&token=409ab17d-09df-4b48-aec7-b852b035f762"/></td></tr>
+<tr><td> <em>Caption:</em> <p>Invalid Id being redirected to the list page with an error message that<br>record does not exist.<br></p>
+</td></tr>
 </table></td></tr>
 <tr><td> <em>Sub-Task 2: </em> Include related pull request(s)</td></tr>
 <tr><td>Not provided</td></tr>
 </table></td></tr>
-<table><tr><td> <em>Deliverable 5: </em> Edit Page </td></tr><tr><td><em>Status: </em> <img width="100" height="20" src="https://user-images.githubusercontent.com/54863474/211707795-a9c94a71-7871-4572-bfae-ad636f8f8474.png"></td></tr>
+<table><tr><td> <em>Deliverable 5: </em> Edit Page </td></tr><tr><td><em>Status: </em> <img width="100" height="20" src="https://user-images.githubusercontent.com/54863474/211707834-bf5a5b13-ec36-4597-9741-aa830c195be2.png"></td></tr>
 <tr><td><table><tr><td> <em>Sub-Task 1: </em> Have a page to edit a single entity</td></tr>
-<tr><td><table><tr><td>Missing Image</td></tr>
-<tr><td> <em>Caption:</em> (missing)</td></tr>
+<tr><td><table><tr><td><img width="768px" src="https://firebasestorage.googleapis.com/v0/b/learn-e1de9.appspot.com/o/assignments%2Fnm779%2F2023-12-20T17.16.17image.png.webp?alt=media&token=0bbddcfb-c776-40c1-8a60-1cb6aeaef080"/></td></tr>
+<tr><td> <em>Caption:</em> <p>Stocks is being fetched by id.<br></p>
+</td></tr>
+<tr><td><img width="768px" src="https://firebasestorage.googleapis.com/v0/b/learn-e1de9.appspot.com/o/assignments%2Fnm779%2F2023-12-20T18.33.03image.png.webp?alt=media&token=d5b84ff9-1879-497b-85b0-15b3074f46a6"/></td></tr>
+<tr><td> <em>Caption:</em> <p>When I put id that does not exist the page is reverted to<br>stocks/list route again.<br></p>
+</td></tr>
+<tr><td><img width="768px" src="https://firebasestorage.googleapis.com/v0/b/learn-e1de9.appspot.com/o/assignments%2Fnm779%2F2023-12-20T18.34.58image.png.webp?alt=media&token=19172171-e4bd-436e-8e9a-451fb6d0a1fa"/></td></tr>
+<tr><td> <em>Caption:</em> <p>Form prefilling.<br></p>
+</td></tr>
+<tr><td><img width="768px" src="https://firebasestorage.googleapis.com/v0/b/learn-e1de9.appspot.com/o/assignments%2Fnm779%2F2023-12-20T19.06.45image.png.webp?alt=media&token=c1c83101-e6d3-4578-b3ad-3fab2a6734ca"/></td></tr>
+<tr><td> <em>Caption:</em> <p>No invalid data is being entered. <br></p>
+</td></tr>
+<tr><td><img width="768px" src="https://firebasestorage.googleapis.com/v0/b/learn-e1de9.appspot.com/o/assignments%2Fnm779%2F2023-12-20T19.08.41image.png.webp?alt=media&token=7e8a5a14-8c3b-4ae6-903a-7ae85f1e055f"/></td></tr>
+<tr><td> <em>Caption:</em> <p>Edit Successful.<br></p>
+</td></tr>
 </table></td></tr>
 <tr><td> <em>Sub-Task 2: </em> Database</td></tr>
 <tr><td><table><tr><td>Missing Image</td></tr>
