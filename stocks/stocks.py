@@ -6,7 +6,8 @@ from roles.permissions import admin_permission
 stocks = Blueprint('stocks', __name__, url_prefix='/stocks', template_folder='templates')
 
 @stocks.route("/fetch", methods=["GET", "POST"])
-# @admin_permission.require(http_exception=403)
+@admin_permission.require(http_exception=403)
+# nm779
 def fetch():
     form = StockSearchForm()
     if form.validate_on_submit():
@@ -57,7 +58,7 @@ def add():
     return render_template("stock_form.html", form=form, type="Create")
 
 @stocks.route("/edit", methods=["GET", "POST"])
-@admin_permission.require(http_exception=403)
+# @admin_permission.require(http_exception=403)
 def edit():
     form = StockForm()
     id = request.args.get("id")
@@ -67,10 +68,15 @@ def edit():
     if form.validate_on_submit() and id:
         try:
             # Update the existing stock record in the database
+            # result = DB.insertOne(
+            #     "UPDATE IS601_Stocks SET symbol = %s, open = %s, high = %s, low = %s, price = %s, volume = %s, latest_trading_day = %s, previous_close = %s, change = %s, change_percent = %s WHERE id = %s",
+            #     form.symbol.data.upper(), form.open.data, form.high.data, form.low.data, form.price.data, form.volume.data, form.latest_trading_day.data, form.previous_close.data, form.change.data, form.change_percent.data, id
+            # )
             result = DB.insertOne(
-                "UPDATE IS601_Stocks SET symbol = %s, open = %s, high = %s, low = %s, price = %s, volume = %s, latest_trading_day = %s, previous_close = %s, change = %s, change_percent = %s WHERE id = %s",
-                form.symbol.data.upper(), form.open.data, form.high.data, form.low.data, form.price.data, form.volume.data, form.latest_trading_day.data, form.previous_close.data, form.change.data, form.change_percent.data, id
-            )
+    "UPDATE IS601_Stocks SET symbol = %s, open = %s, high = %s, low = %s, price = %s, volume = %s, latest_trading_day = %s, previous_close = %s, `change` = %s, change_percent = %s WHERE id = %s",
+    *(form.symbol.data.upper(), form.open.data, form.high.data, form.low.data, form.price.data, form.volume.data, form.latest_trading_day.data, form.previous_close.data, form.change.data, form.change_percent.data, id)
+)
+
             if result.status:
                 flash(f"Updated stock record for {form.symbol.data}", "success")
         except Exception as e:
